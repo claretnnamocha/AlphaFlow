@@ -1,5 +1,5 @@
 <?php
-
+namespace AlphaLearn\Utils\LabelEncoder;
 /**
  * 
  */

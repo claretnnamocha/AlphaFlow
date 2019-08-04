@@ -1,5 +1,5 @@
 <?php 
-namespace Alpha\ML\Unsupervised\Clustering;
+namespace AlphaLearn\ML\Unsupervised\Clustering;
 
 /**
  * KMeans Clustering Classifier 

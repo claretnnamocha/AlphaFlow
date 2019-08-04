@@ -1,5 +1,5 @@
 <?php
-namespace Alpha\ML\Supervised\Regression;
+namespace AlphaLearn\ML\Supervised\Regression;
 
 /**
  * Linear Regressor

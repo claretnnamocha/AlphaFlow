@@ -1,5 +1,5 @@
 <?php
-namespace Alpha\ML\Supervised\Classification;
+namespace AlphaLearn\ML\Supervised\Classification;
 
 /**
  * LogisticRegression Classifier

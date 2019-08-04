@@ -1,7 +1,7 @@
 <?php
-namespace Alpha\ML\Supervised\Classification; 
+namespace AlphaLearn\ML\Supervised\Classification; 
 
-use Alpha\Utils\DataFrame\DataFrame;
+use AlphaLearn\Utils\DataFrame\DataFrame;
 
 /**
  * A Classification and Regression Tree 
