@@ -2,7 +2,7 @@
     "name": "claretnnamocha/alpha-learn",
     "description": "A PHP library for machine learning and deep learning",
     "type": "library",
-    "license": "ISC",
+    "license": "GNU",
     "authors": [
         {
             "name": "Nnamocha Claret",
