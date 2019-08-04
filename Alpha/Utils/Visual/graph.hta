@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <HTA:APPLICATION ID="myhta" APPLICATIONNAME="HTA Test" SCROLL="no">
+    <title>Alpha Graph</title>
+    <script src="dist/js/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+</head>
+<script language="VBScript">
+Sub Window_OnLoad()
+a = Split(myhta.CommandLine, Chr(34))
+document.getelementbyid("param").innerHTML = a(2)
+End Sub
+</script>
+
+<body>
+    <div id="param" style="display: none;"></div>
+     <div id="graph" class="af-graph" style="width: 300px;height: 300px;"></div>
+</body>
+
+</html>
+<script language="javascript">
+    height = 300
+    width = 500
+    window.resizeTo(width, height);
+    center_x = (screen.width/2) - (width/2)
+    center_y = (screen.height/2) - (height/2)
+    window.moveTo(center_x,center_y);
+</script>
+<script language="javascript">
+    trace = {
+        x : [2.5,5.1,3.2,8.5,3.5,1.5,9.2,5.5,8.3,2.7,7.7,5.9,4.5,3.3,1.1,8.9,2.5,1.9,6.1,7.4,2.7,4.8,3.8,6.9,7.8],
+        y : [21,47,27,75,30,20,88,60,81,25,85,62,41,42,17,95,30,24,67,69,30,54,35,76,86],
+        mode : 'markers',
+        type : 'scatter'
+    }
+    Plotly.newPlot('graph', [trace])
+// setTimeout(function() {
+//     alert(document.getElementById("param").innerHTML)
+// }, 500)
+</script>

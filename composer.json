@@ -1,0 +1,18 @@
+{
+    "name": "claretnnamocha/alpha-learn",
+    "description": "A PHP library for machine learning and deep learning",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Nnamocha Claret",
+            "email": "devclareo@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"Alpha\\":"Alpha/"
+		}
+	}
+}
