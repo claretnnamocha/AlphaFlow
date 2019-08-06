@@ -6,13 +6,14 @@
     "authors": [
         {
             "name": "Nnamocha Claret",
-            "email": "devclareo@gmail.com"
+            "email": "devclareo@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {},
 	"autoload":{
 		"psr-4":{
-			"AlphaLearn\\":"AlphaLearn/"
+			"AlphaLearn\\":"src/AlphaLearn/"
 		}
 	}
 }
